@@ -3,8 +3,10 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { RouterModule, Routes, ExtraOptions } from '@angular/router';
-import { ProfileComponent } from './profile/profile.component';
-import { ProfileModule } from './profile/profile.module';
+
+import {ProfileComponent} from './Components/profile/profile.component'
+import { ProfileModule } from './Components/profile/profile.module';
+
 import { HttpClientModule } from '@angular/common/http';
 
 const routes: Routes = [
